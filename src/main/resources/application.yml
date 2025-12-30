@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rag-ai-chatbot
+
+logging:
+  level:
+    root: INFO
+    ch.bzz.rag: DEBUG
+  file:
+    name: app.log
